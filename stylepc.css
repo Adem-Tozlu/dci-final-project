@@ -1,0 +1,556 @@
+body {
+  margin: 0;
+  background-color: rgb(231, 231, 231);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.main-header {
+  background-image: url(././seitehintergrundbilder/images.jpg);
+  background-color: rgba(110, 0, 0, 0.808);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+.pcstyle {
+  font-family: "Lobster", sans-serif;
+  border-radius: 15px;
+  color: white;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  background-color: rgba(110, 0, 0, 0.808);
+}
+
+.login {
+  width: 180px;
+  border-radius: 5px;
+  background-color: rgb(110, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+
+  padding: 4px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.kopfzeile {
+  font-variant: small-caps;
+  font-size: 20px;
+  position: fixed;
+  z-index: 99;
+  margin-left: 300px;
+  width: 2000px;
+  color: white;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #787878;
+  border-radius: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+
+  justify-content: space-around;
+}
+nav,
+.kopfzeile :hover {
+  color: rgb(110, 0, 0);
+}
+
+p.banner {
+  margin: 0;
+  background-color: rgb(95, 1, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kopfzeile1 img {
+  width: 2560px;
+  height: 550px;
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    2px 14px 25px 4px rgb(124, 1, 1);
+
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    2px 14px 25px 4px rgb(124, 1, 1);
+}
+.office {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.office img {
+  margin-top: 50px;
+  width: 400px;
+  height: 400px;
+  filter: drop-shadow(10px 10px 20px #555);
+}
+
+.auswahl {
+  font-size: 25px;
+  font-style: normal;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
+  background: rgb(95, 1, 1);
+}
+div.highlight {
+  margin-top: 30px;
+  font-size: 80px;
+  font-style: normal;
+  font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
+  color: #000000;
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+  color: #000000;
+}
+
+
+.bildeinfugen1 {
+  margin-top: 100px;
+  filter: drop-shadow(10px 10px 20px #555);
+  display: flex;
+  justify-content: space-between;
+}
+div ul {
+  margin-top: 50px;
+  margin-left: 350px;
+  /* border: 1px solid #000; */
+  display: flex;
+  display: inline-block;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  list-style: none;
+}
+
+.komponente {
+  margin-left: 70px;
+}
+.komponente2 {
+  margin-left: 430px;
+}
+.komponente3 {
+  margin-left: 200px;
+}
+
+.komponente4 {
+  margin-left: 330px;
+}
+div.geld {
+  margin-left: 400px;
+  /* display: inline-block; */
+  display: flex;
+  justify-content: flex-start;
+}
+
+.geld1-durch {
+  color: rgb(95, 1, 1);
+  margin-left: 0;
+  font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+}
+.geld1 {
+  color: rgb(95, 1, 1);
+
+  margin-left: 0px;
+  font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+}
+
+.geld1-durch2 {
+  color: rgb(95, 1, 1);
+
+  margin-left: 330px;
+  font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+}
+.geld2 {
+  color: rgb(95, 1, 1);
+
+  margin-left: 0px;
+  font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+}
+
+.geld1-durch3 {
+  color: rgb(95, 1, 1);
+
+  margin-left: 380px;
+  font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+}
+
+.geld3 {
+  color: rgb(95, 1, 1);
+
+  margin-left: 0px;
+  font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+}
+
+.geld1-durch4 {
+  color: rgb(95, 1, 1);
+
+  margin-left: 280px;
+  font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+}
+.geld4 {
+  color: rgb(95, 1, 1);
+
+  margin-left: 0px;
+  font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+}
+
+.officepc {
+  margin-top: 80px;
+  font-size: 80px;
+  font-style: normal;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+
+  background-color: rgb(95, 1, 1);
+}
+
+/* KATEGORIE OFFICE PC */
+
+.bildeinfugen0 {
+  margin-top: 100px;
+  filter: drop-shadow(10px 10px 20px #555);
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 100px;
+}
+
+.komponenteoffice {
+  margin-left: 70px;
+}
+.komponente2office {
+  margin-left: 350px;
+}
+.komponente3office {
+  margin-left: 350px;
+}
+
+.komponente4office {
+  margin-left: 210px;
+}
+
+.bildeinfugen01 {
+  margin-top: 100px;
+  filter: drop-shadow(10px 10px 20px #555);
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 100px;
+}
+.komponente5office {
+  margin-left: 70px;
+}
+.komponente6office {
+  margin-left: 250px;
+}
+.komponente7office {
+  margin-left: 350px;
+}
+
+.komponente8office {
+  margin-left: 280px;
+}
+
+/* KATEGORIE GAMING PC */
+
+.bildeinfugen2 {
+  margin-top: 100px;
+  filter: drop-shadow(10px 10px 20px #555);
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 100px;
+}
+
+.komponentegaming {
+  margin-left: 70px;
+}
+.komponente2gaming {
+  margin-left: 350px;
+}
+.komponente3gaming {
+  margin-left: 300px;
+}
+
+.komponente4gaming {
+  margin-left: 280px;
+}
+
+.komponente5gaming {
+  margin-left: 70px;
+}
+.komponente6gaming {
+  margin-left: 350px;
+}
+.komponente7gaming {
+  margin-left: 300px;
+}
+
+.komponente8gaming {
+  margin-left: 280px;
+}
+
+/* KATEGORIE KOMPLETT PC */
+
+.bildeinfugen3 {
+  margin-top: 70px;
+  filter: drop-shadow(10px 10px 20px #555);
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.komponentekomplett {
+  margin-left: 70px;
+}
+.komponente2komplett {
+  margin-left: 350px;
+}
+.komponente3komplett {
+  margin-left: 300px;
+}
+
+.komponente4komplett {
+  margin-left: 280px;
+}
+
+.komponente5komplett {
+  margin-left: 70px;
+}
+.komponente6komplett {
+  margin-left: 350px;
+}
+.komponente7komplett {
+  margin-left: 300px;
+}
+
+.komponente8komplett {
+  margin-left: 280px;
+}
+
+/* KATEGORIE LAPTOP */
+
+.bildeinfugen4 {
+  margin-top: 70px;
+  filter: drop-shadow(10px 10px 20px #555);
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.komponentelaptop {
+  margin-left: 70px;
+}
+.komponente2laptop {
+  margin-left: 350px;
+}
+.komponente3laptop {
+  margin-left: 300px;
+}
+
+.komponente4laptop {
+  margin-left: 280px;
+}
+
+.komponente5laptop {
+  margin-left: 70px;
+}
+.komponente6laptop {
+  margin-left: 350px;
+}
+.komponente7laptop {
+  margin-left: 300px;
+}
+
+.komponente8laptop {
+  margin-left: 280px;
+}
+
+/* KATEGORIE MINI PC */
+
+.bildeinfugen5 {
+  margin-top: 70px;
+  filter: drop-shadow(10px 10px 20px #555);
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.komponenteminipc {
+  margin-left: 70px;
+}
+.komponente2minipc {
+  margin-left: 350px;
+}
+.komponente3minipc {
+  margin-left: 300px;
+}
+
+.komponente4minipc {
+  margin-left: 280px;
+}
+
+.komponente5minipc {
+  margin-left: 70px;
+}
+.komponente6minipc {
+  margin-left: 350px;
+}
+.komponente7minipc {
+  margin-left: 300px;
+}
+
+.komponente8minipc {
+  margin-left: 280px;
+}
+
+/* KATEGORIE PC KONFIGURATION */
+
+.background {
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+  background-image: url(././seitehintergrundbilder/images.jpg);
+}
+
+h2 {
+  display: flex;
+
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+  color: rgb(155, 1, 1);
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+p.text-zu-konfiguration {
+  margin-left: 400px;
+  margin-right: 400px;
+
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: rgb(255, 255, 255);
+
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+.iframes {
+  text-align: center;
+}
+
+.test {
+  background-color: rgb(95, 1, 1);
+  /* border: 10px solid red; */
+  /* min-height: 500px; */
+}
+ul,
+a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.test,
+ul a {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  padding-left: 0px;
+
+  padding: 7px;
+}
+
+.kundenservice {
+  padding-bottom: 20px;
+  color: #979696;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+ul .maps {
+  /* border: 2px solid black; */
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 200px;
+  padding: 7px;
+}
+ul .linie {
+  margin-right: px;
+}
+
+ul .linie1 {
+  margin-right: 150px;
+}
+
+.kundenservice1 {
+  padding-bottom: 20px;
+  color: #979696;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  margin-left: 165px;
+  margin-right: 70px;
+}
+
+.iframes1 {
+  margin-top: 50px;
+
+  margin-right: 180px;
+}
+
+footer {
+  border: 2px solid black;
+
+  background-image: url(././seitehintergrundbilder/fusszeile.jpg);
+  background-repeat: round;
+  background-position-x: right 80px;
+}
